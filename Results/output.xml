@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221125 10:17:37.555" rpa="false" schemaversion="3">
+<suite id="s1" name="Product 1 Regression" source="C:\development\robot-scripts\multi-suite\tests\Product1">
+<suite id="s1-s1" name="API" source="C:\development\robot-scripts\multi-suite\tests\Product1\API">
+<suite id="s1-s1-s1" name="FeatureOne" source="C:\development\robot-scripts\multi-suite\tests\Product1\API\FeatureOne.robot">
+<test id="s1-s1-s1-t1" name="Test case 1" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 1 of API feature 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:37.952" level="INFO">I am test case 1 of API feature 1</msg>
+<status status="PASS" starttime="20221125 10:17:37.951" endtime="20221125 10:17:37.952"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:37.950" endtime="20221125 10:17:37.953"/>
+</test>
+<test id="s1-s1-s1-t2" name="Test case 2" line="7">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 2 of API feature 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:37.955" level="INFO">I am test case 2 of API feature 1</msg>
+<status status="PASS" starttime="20221125 10:17:37.955" endtime="20221125 10:17:37.955"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:37.954" endtime="20221125 10:17:37.956"/>
+</test>
+<status status="PASS" starttime="20221125 10:17:37.609" endtime="20221125 10:17:37.958"/>
+</suite>
+<suite id="s1-s1-s2" name="FeatureTwo" source="C:\development\robot-scripts\multi-suite\tests\Product1\API\FeatureTwo.robot">
+<test id="s1-s1-s2-t1" name="Test case 1" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 1 of API feature 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:37.971" level="INFO">I am test case 1 of API feature 2</msg>
+<status status="PASS" starttime="20221125 10:17:37.970" endtime="20221125 10:17:37.971"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:37.969" endtime="20221125 10:17:37.971"/>
+</test>
+<test id="s1-s1-s2-t2" name="Test case 2" line="7">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 2 of API feature 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:37.973" level="INFO">I am test case 2 of API feature 2</msg>
+<status status="PASS" starttime="20221125 10:17:37.973" endtime="20221125 10:17:37.973"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:37.973" endtime="20221125 10:17:37.974"/>
+</test>
+<status status="PASS" starttime="20221125 10:17:37.961" endtime="20221125 10:17:37.975"/>
+</suite>
+<status status="PASS" starttime="20221125 10:17:37.605" endtime="20221125 10:17:37.978"/>
+</suite>
+<suite id="s1-s2" name="Web" source="C:\development\robot-scripts\multi-suite\tests\Product1\Web">
+<suite id="s1-s2-s1" name="FeatureOne" source="C:\development\robot-scripts\multi-suite\tests\Product1\Web\FeatureOne.robot">
+<test id="s1-s2-s1-t1" name="Test case 1" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 1 of Web feature 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:37.998" level="INFO">I am test case 1 of Web feature 1</msg>
+<status status="PASS" starttime="20221125 10:17:37.997" endtime="20221125 10:17:37.998"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:37.996" endtime="20221125 10:17:37.999"/>
+</test>
+<test id="s1-s2-s1-t2" name="Test case 2" line="7">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 2 of Web feature 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:38.001" level="INFO">I am test case 2 of Web feature 1</msg>
+<status status="PASS" starttime="20221125 10:17:38.001" endtime="20221125 10:17:38.002"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:38.000" endtime="20221125 10:17:38.002"/>
+</test>
+<status status="PASS" starttime="20221125 10:17:37.987" endtime="20221125 10:17:38.004"/>
+</suite>
+<suite id="s1-s2-s2" name="FeatureTwo" source="C:\development\robot-scripts\multi-suite\tests\Product1\Web\FeatureTwo.robot">
+<test id="s1-s2-s2-t1" name="Test case 1" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 1 of Web feature 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:38.018" level="INFO">I am test case 1 of Web feature 2</msg>
+<status status="PASS" starttime="20221125 10:17:38.017" endtime="20221125 10:17:38.018"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:38.016" endtime="20221125 10:17:38.018"/>
+</test>
+<test id="s1-s2-s2-t2" name="Test case 2" line="7">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 2 of Web feature 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221125 10:17:38.021" level="INFO">I am test case 2 of Web feature 2</msg>
+<status status="PASS" starttime="20221125 10:17:38.021" endtime="20221125 10:17:38.022"/>
+</kw>
+<status status="PASS" starttime="20221125 10:17:38.020" endtime="20221125 10:17:38.022"/>
+</test>
+<status status="PASS" starttime="20221125 10:17:38.007" endtime="20221125 10:17:38.024"/>
+</suite>
+<status status="PASS" starttime="20221125 10:17:37.981" endtime="20221125 10:17:38.026"/>
+</suite>
+<status status="PASS" starttime="20221125 10:17:37.558" endtime="20221125 10:17:38.027"/>
+</suite>
+<statistics>
+<total>
+<stat pass="8" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="8" fail="0" skip="0" id="s1" name="Product 1 Regression">Product 1 Regression</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s1" name="API">Product 1 Regression.API</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s1" name="FeatureOne">Product 1 Regression.API.FeatureOne</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s2" name="FeatureTwo">Product 1 Regression.API.FeatureTwo</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s2" name="Web">Product 1 Regression.Web</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s2-s1" name="FeatureOne">Product 1 Regression.Web.FeatureOne</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s2-s2" name="FeatureTwo">Product 1 Regression.Web.FeatureTwo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
