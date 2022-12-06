@@ -1,5 +1,8 @@
 *** Settings ***
 Library         SeleniumLibrary
+#robot -d results Tests
+#robot -d results -N "FULL REGRESSION" Tests
+#robot -d results -N "Product 1 Regression" ./Tests/Product1
 *** Variables ***
 *** Test Cases ***
 Test case 1
